@@ -1,0 +1,13 @@
+angular.module('sampleApp', 
+    ['ngRoute',
+    //'ngResource',
+    'appRoutes',
+    'MainCtrl',
+    'AboutCtrl',
+    'AboutService', 
+    'Service',
+    'ContactCtrl', 
+    'ContactService',
+    'TenantsCtrl',
+    'newUserCtrl',
+    'ngCookies']);

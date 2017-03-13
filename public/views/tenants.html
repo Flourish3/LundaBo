@@ -1,0 +1,16 @@
+<h1>Tenants:</h1>
+
+<div class="tenantDiv">
+    <ul>
+        <li ng-repeat="tenant in tenants">
+            ID:{{tenant._id}},
+            {{tenant.first_name}}, 
+            {{tenant.last_name}},
+            {{tenant.email}},
+            {{tenant.adress}},
+            {{tenant.city}},
+            {{tenant.phone}}
+            <button ng-click="remove($index)">Remove</button>
+        </li>
+    </ul>
+</div>

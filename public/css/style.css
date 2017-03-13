@@ -1,0 +1,106 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {display: none;}
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#body {
+   padding:10px;
+   padding-bottom:80px;   /* Height of the footer */
+}
+
+footer{
+    display: block;
+    position:relative;
+    text-align: center;
+    width:100%;
+    bottom:0;
+    height:80px;   /* Height of the footer */
+}
+
+header{text-align: center; padding-top: 1%;}
+
+header a{
+    font-size: 100px;
+    color: orangered;
+    text-decoration: none;
+}
+
+nav{
+    padding:10px;
+    background-color: lightblue;
+}
+
+nav a{
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    font-style: bold;
+}
+
+nav a.hoover{
+    background-color: orangered;
+    color:orangered;
+}
+
+nav form{
+    float:right;
+    margin:auto;
+    padding-right: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    border:3px solid #555;
+}
+
+div#aboutDiv{
+    color:red;
+    text-align: center;
+    border:2px solid black;
+}
+
+div#newUserForm{
+    width:40%;
+    margin:20px auto  0 auto;
+    border: 1px  solid black;
+    padding:20px;
+}
+
+div#newUserForm form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div#newUserForm h1,p{
+    text-align: center;
+}
+
+div#newUserForm input[type=text],div#newUserForm input[type=submit],div#newUserForm input[type=password]{
+    width:100%;
+    padding: 5px;
+}
+
+div#newUserForm input[type=submit]{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+div#newUserForm label, input {
+    /* in order to define widths */
+    display: inline-block;
+    margin: 10px;
+}
+
+div#newUserForm label {
+    width: 40%;
+    /* positions the label text beside the input */
+    text-align: left;
+}

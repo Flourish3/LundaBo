@@ -1,0 +1,16 @@
+<div id="newUserForm">
+    <h1>Register new user</h1>
+    <p>Please fill in the form below</p>
+    <form action="/process?form=newuser" method="POST">
+        <label>First name:</label><input type="text" name="first_name" />   <br />
+        <label>Last name: </label><input type="text" name="last_name" />    <br />
+        <label>Email:     </label><input type="text" name="email" />        <br />
+        <label>Password   </label><input type="password" name="password">   <br />
+        <label>Repeat password   </label><input type="password" name="password_repeat">   <br />
+        <label>Street:    </label><input type="text" name="adress" />        <br />
+        <label>City:      </label><input type="text" name="city" />        <br />
+        <label>Phone:     </label><input type="text" name="phone" />        <br />
+        <label>Personal number:</label><input type="text" name="pers_nbr" />        <br />
+        <input type="submit" name="newUser" value="Register" id="newUserBtn" />
+    </form>
+</div>
