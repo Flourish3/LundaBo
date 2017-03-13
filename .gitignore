@@ -14,6 +14,8 @@ results
 npm-debug.log
 node_modules
 
+data
+
 creadentials.js
 
 public/libs
